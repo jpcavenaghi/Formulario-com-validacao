@@ -1,0 +1,32 @@
+@media(max-width:1080px){
+    .container .form{
+        width: 80%;
+        height: 75%;
+    }
+
+    .form .campo-obrigatorio{
+        font-size: 15px;
+    }
+}
+
+@media(max-width:920px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container .texto{
+        text-align: center;
+    }
+}
+
+@media(max-width:475px){
+    .container .texto,
+    .container .form{
+        width: 90%;
+    }
+    .container .form{
+        margin-top:0;
+    }
+}
+
